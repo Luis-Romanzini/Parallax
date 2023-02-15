@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=EB+Garamond:ital,wght@0,500;1,400;1,500;1,600&family=Inter:wght@400;700&family=Krona+One&family=Permanent+Marker&family=Quicksand&family=Roboto+Mono:ital,wght@1,600&family=Unbounded:wght@500;600&display=swap');
+body {
+
+    position: absolute;
+    background: url(img/luffyzasso.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+:root {
+    --fonte-padrao:    font-family: 'Unbounded', cursive;
+}
+header{
+    height: 100vh;
+}
+.caixa__link {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+.caixa {
+    display: inline-block;
+    margin: 20% 0 0 900px;
+    background: black;
+    box-shadow: 0px 0px 100px 90px black;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.conteudo__principal {
+    display: flex;
+    flex-direction: column;
+    font-family: (--fonte-padrao);
+    color: white;
+
+}
+.conteudo__principal__escrito {
+    text-align: center;
+    background-color: black;
+    padding: 0 5rem;
+    height: 300px;
+
+}
+.conteudo__principal__escrito--titulo {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+.conteudo__principal__escrito--texto {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 1rem 0;
+    font-family: var(--fonte-padrao);
+}
+.conteudo__principal__imagem { 
+    height: 300px;
+    background: url(img/SNAKEMAN.jpg);
+    background-attachment: fixed;;
+}
+
+.segundo {
+    height: 500px;
+    background: url(img/kawakboruto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.rodape {
+    height: 100vh;
+}
+
