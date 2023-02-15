@@ -16,7 +16,7 @@ body {
 }
 header{
     height: 100vh;
-    text-allign:center;
+    text-align:center;
 }
 .caixa__link {
     display: inline-block;
