@@ -27,7 +27,7 @@ header{
 }
 .caixa {
     display: inline-block;
-    margin: 20% 0 0 900px;
+    margin: 20% 0 0 45%;
     background: black;
     box-shadow: 0px 0px 100px 90px black;
     text-align: center;
