@@ -16,6 +16,7 @@ body {
 }
 header{
     height: 100vh;
+    text-allign:center;
 }
 .caixa__link {
     display: inline-block;
@@ -25,7 +26,7 @@ header{
     font-weight: bold;
     font-size: 3rem;
     letter-spacing: 1rem;
-    margin: 20% 0 20% 45%;
+    margin: 20% 0;
 }
 .caixa {
     display: inline-block;
